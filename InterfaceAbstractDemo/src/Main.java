@@ -9,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-		Customer customer1 = new Customer(1,"Engin","Demiroð",LocalDate.of(1985, 1, 6),"22246098788");
+		Customer customer1 = new Customer(1,"Engin","DemiroÃ°",LocalDate.of(1985, 1, 6),"28861499108");
 		customerManager.save(customer1);
 		
 		
